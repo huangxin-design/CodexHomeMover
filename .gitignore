@@ -1,0 +1,19 @@
+bin/
+obj/
+dist/
+release/
+TestResults/
+tests/*.exe
+tests/*.exe.config
+*.user
+*.suo
+*.pdb
+*.log
+.vs/
+Thumbs.db
+tests/artifacts/
+
+# Local design-source exports that are not used by the application.
+assets/app.ico
+assets/mascot-source.png
+assets/mascot.png

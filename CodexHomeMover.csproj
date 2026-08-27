@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>CodexHomeMover</RootNamespace>
+    <AssemblyName>CodexHomeMover</AssemblyName>
+    <ApplicationIcon>assets\app-fluent-v2.ico</ApplicationIcon>
+    <ApplicationManifest>src\app.manifest</ApplicationManifest>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\*.cs" />
+    <EmbeddedResource Include="assets\mascot-fluent-v2.png" LogicalName="CodexHomeMover.Mascot.png" />
+    <None Include="assets\app-fluent-v2.ico" />
+  </ItemGroup>
+</Project>
