@@ -1,6 +1,24 @@
 # Codex Home Mover
 
-一个面向 Windows 的可视化迁移工具：把用户目录中的 `.codex` 完整迁移到其他 NTFS 固定磁盘，同时通过 NTFS 目录联接（Junction）保留原来的 `C:\Users\<用户名>\.codex` 路径。
+<p align="center">
+  <img src="docs/github-social-preview.png" alt="Codex Home Mover：把 .codex 安全搬出 C 盘" width="100%">
+</p>
+
+<p align="center">
+  <strong>把 <code>.codex</code> 安全迁出 C 盘，同时保持原路径不变。</strong><br>
+  Windows 可视化工具 · 先复制再校验 · 失败可回滚 · 全程离线
+</p>
+
+<p align="center">
+  <a href="https://github.com/huangxin-design/CodexHomeMover/releases/download/v0.1.0-beta.1/CodexHomeMover-v0.1.0-beta.1-windows.zip"><strong>⬇ 下载 Windows 版 v0.1.0-beta.1</strong></a>
+  · <a href="https://github.com/huangxin-design/CodexHomeMover/releases/tag/v0.1.0-beta.1">查看发布说明</a>
+  · <a href="#最简单的使用方法">查看使用步骤</a>
+</p>
+
+> [!TIP]
+> 如果它帮你释放了 C 盘，欢迎点击仓库右上角的 **Star ⭐**。这能帮助更多遇到同样问题的人发现它，也能让我知道这个工具值得继续更新。
+
+这是一个面向 Windows 的可视化迁移工具：把用户目录中的 `.codex` 完整迁移到其他 NTFS 固定磁盘，同时通过 NTFS 目录联接（Junction）保留原来的 `C:\Users\<用户名>\.codex` 路径。
 
 > **非官方声明：**本项目是独立社区工具，与 OpenAI 无隶属、合作、赞助或背书关系。“OpenAI”“ChatGPT”“Codex”等名称归其各自权利人所有。
 
@@ -20,7 +38,13 @@
 
 ## 下载与系统要求
 
-首个公开版本建议作为 **v0.1.0-beta.1 预发布版**发布。请从本项目的 GitHub Releases 下载完整 ZIP，解压后再运行；**不要只单独复制 EXE**，同目录的 `CodexHomeMover.exe.config` 包含长路径和 DPI 所需设置。
+当前公开测试版为 **v0.1.0-beta.1**：
+
+- [下载 Windows 完整 ZIP](https://github.com/huangxin-design/CodexHomeMover/releases/download/v0.1.0-beta.1/CodexHomeMover-v0.1.0-beta.1-windows.zip)
+- [下载 SHA-256 校验文件](https://github.com/huangxin-design/CodexHomeMover/releases/download/v0.1.0-beta.1/CodexHomeMover-v0.1.0-beta.1-windows.zip.sha256)
+- [查看完整 Release 与已知限制](https://github.com/huangxin-design/CodexHomeMover/releases/tag/v0.1.0-beta.1)
+
+请下载完整 ZIP，解压后再运行；**不要只单独复制 EXE**，同目录的 `CodexHomeMover.exe.config` 包含长路径和 DPI 所需设置。
 
 系统要求：
 
