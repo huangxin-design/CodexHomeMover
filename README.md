@@ -1,7 +1,7 @@
-# Codex Home Mover
+# Codex 搬家小鱼（Codex Home Mover）
 
 <p align="center">
-  <img src="docs/github-social-preview.png" alt="Codex Home Mover：把 .codex 安全搬出 C 盘" width="100%">
+  <img src="docs/github-social-preview.png" alt="Codex 搬家小鱼：把 .codex 安全搬出 C 盘" width="100%">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 > [!WARNING]
 > 本工具会以管理员权限修改目录结构和访问权限。重要资料请先独立备份；迁移期间不要关机或移除目标磁盘。“释放 C 盘空间”会永久删除安全备份，并且不会进入回收站。
 
-![Codex Home Mover 脱敏演示界面](docs/ui-preview.png)
+![Codex 搬家小鱼脱敏演示界面](docs/ui-preview.png)
 
 ## 它解决什么问题
 
@@ -149,4 +149,4 @@
 
 ## English summary
 
-Codex Home Mover is an unofficial Windows utility that moves a user's `.codex` directory to another fixed NTFS drive while preserving the original path through a directory junction. It performs copy-first migration, optional per-file SHA-256 verification, rollback, and local-only logging. Download the complete Release ZIP and read the warnings above before use.
+Codex 搬家小鱼 (Codex Home Mover) is an unofficial Windows utility that moves a user's `.codex` directory to another fixed NTFS drive while preserving the original path through a directory junction. It performs copy-first migration, optional per-file SHA-256 verification, rollback, and local-only logging. Download the complete Release ZIP and read the warnings above before use.

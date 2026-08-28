@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here.
 
+## Unreleased
+
+### Changed
+
+- Adopted the public-facing Chinese name “Codex 搬家小鱼” while retaining “Codex Home Mover” as the English and repository name.
+
 ## [0.1.0-beta.1] - 2026-08-26
 
 First public beta candidate.

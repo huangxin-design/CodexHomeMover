@@ -3,10 +3,10 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-[assembly: AssemblyTitle("Codex Home Mover")]
+[assembly: AssemblyTitle("Codex 搬家小鱼 (Codex Home Mover)")]
 [assembly: AssemblyDescription("Safely move Codex data on Windows with verification and rollback.")]
 [assembly: AssemblyCompany("CodexHomeMover contributors")]
-[assembly: AssemblyProduct("Codex Home Mover")]
+[assembly: AssemblyProduct("Codex 搬家小鱼 (Codex Home Mover)")]
 [assembly: AssemblyCopyright("Copyright (c) 2026 CodexHomeMover contributors")]
 [assembly: AssemblyVersion("0.1.0.0")]
 [assembly: AssemblyFileVersion("0.1.0.0")]

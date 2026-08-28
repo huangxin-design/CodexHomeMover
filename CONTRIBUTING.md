@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Codex Home Mover. This is a recovery-sensitive Windows utility, so changes should stay small and verifiable.
+Thank you for helping improve Codex 搬家小鱼 (Codex Home Mover). This is a recovery-sensitive Windows utility, so changes should stay small and verifiable.
 
 ## Development requirements
 

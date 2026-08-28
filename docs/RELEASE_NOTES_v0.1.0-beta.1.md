@@ -1,4 +1,4 @@
-# Codex Home Mover v0.1.0-beta.1
+# Codex 搬家小鱼（Codex Home Mover）v0.1.0-beta.1
 
 首个公开测试版。建议先在重要数据已有独立备份的 Windows 10/11 电脑上使用。
 

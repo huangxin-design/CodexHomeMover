@@ -207,7 +207,7 @@ namespace CodexHomeMover
 
         private void InitializeWindow()
         {
-            Text = "Codex 数据迁移";
+            Text = "Codex 搬家小鱼";
             ClientSize = new Size(BaseClientWidth, BaseClientHeight);
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.Sizable;
@@ -254,7 +254,7 @@ namespace CodexHomeMover
             content.BackColor = appBackground;
             zoomSurface.Controls.Add(content);
 
-            Label heading = NewLabel("Codex 数据迁移", 22F, FontStyle.Bold, textPrimary);
+            Label heading = NewLabel("Codex 搬家小鱼", 22F, FontStyle.Bold, textPrimary);
             heading.Location = new Point(28, 18);
             heading.Size = new Size(420, 42);
             content.Controls.Add(heading);
@@ -612,7 +612,7 @@ namespace CodexHomeMover
             mascot.Image = LoadMascot();
             sidebar.Controls.Add(mascot);
 
-            Label productName = NewLabel("Codex Home Mover", 15F, FontStyle.Bold, textPrimary);
+            Label productName = NewLabel("Codex 搬家小鱼", 15F, FontStyle.Bold, textPrimary);
             productName.Location = new Point(16, 196);
             productName.Size = new Size(218, 38);
             productName.TextAlign = ContentAlignment.MiddleCenter;

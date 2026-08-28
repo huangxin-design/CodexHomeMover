@@ -19,6 +19,6 @@ Do not attach a real `.codex` directory, `auth.json`, SQLite databases, account 
 
 ## Security model
 
-Codex Home Mover requires administrator privileges only because final directory switching, NTFS Junctions, and access-control preservation need them. The application is offline and does not intentionally transmit files, logs, or telemetry.
+Codex 搬家小鱼 (Codex Home Mover) requires administrator privileges only because final directory switching, NTFS Junctions, and access-control preservation need them. The application is offline and does not intentionally transmit files, logs, or telemetry.
 
 The current community build is not Authenticode-signed. Verify downloads using the SHA-256 file published with the GitHub Release. Never disable Microsoft Defender or weaken Windows security settings to run the tool.

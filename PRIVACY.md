@@ -1,6 +1,6 @@
 # Privacy
 
-Codex Home Mover runs locally and has no telemetry, analytics, updater, advertising, or network upload feature.
+Codex 搬家小鱼 (Codex Home Mover) runs locally and has no telemetry, analytics, updater, advertising, or network upload feature.
 
 ## Data the program accesses
 

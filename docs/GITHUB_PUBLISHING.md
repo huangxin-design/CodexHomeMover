@@ -38,7 +38,7 @@ codex windows migration ntfs junction winforms backup disk-space
 
 1. 在 GitHub 打开 **Releases → Draft a new release**。
 2. 新建标签 `v0.1.0-beta.1`，目标分支选 `main`。
-3. 标题填写 `Codex Home Mover v0.1.0-beta.1`。
+3. 标题填写 `Codex 搬家小鱼（Codex Home Mover）v0.1.0-beta.1`。
 4. 勾选 **Set as a pre-release**。
 5. 复制 `docs/RELEASE_NOTES_v0.1.0-beta.1.md` 的内容。
 6. 只上传：
